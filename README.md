@@ -16,3 +16,7 @@ http://localhost:8080
 - If you are using linux, you might be required to use sudo before the step 2 command
 - If no docker daemon is present, it means either the above or docker needs to be installed
 
+## Todo
+
+Install sent2vec from the public github repository
+Find a way to load files from the computer hosting the docker containers
