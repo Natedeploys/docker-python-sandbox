@@ -1,5 +1,7 @@
 ## Jupyter Notebook ready with NLP libraries
 
+A wired internet connection is recommended, otherwise a strong wifi connection to download content quicker.
+
 1. Install docker on your machine.
 2. Using the command line, CD into this folder and build once:
 
@@ -9,8 +11,6 @@ docker-compose up --build
 
 http://localhost:8080
 
-4. Use the token at the end of the url provided at the command line to log in to jupyter
-
 ## Troubleshooting
 
 - If you are using linux, you might be required to use sudo before the step 2 command
@@ -18,5 +18,5 @@ http://localhost:8080
 
 ## Todo
 
-Install sent2vec from the public github repository
-Find a way to load files from the computer hosting the docker containers
+- Install sent2vec from the public github repository
+- Find a way to load files from the computer hosting the docker containers

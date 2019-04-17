@@ -18,7 +18,12 @@ RUN wget https://github.com/facebookresearch/fastText/archive/v0.2.0.zip
 RUN apt install unzip -y
 RUN unzip v0.2.0.zip
 RUN make ./fastText-0.2.0
+RUN apt-get install git -y
+RUN git clone https://github.com/epfml/sent2vec.git
+RUN make ./sent2vec
+RUN rm -f v0.2.0.zip
+RUN ls
 
 COPY . .
 
-CMD [ "jupyter", "notebook", "--ip=0.0.0.0", "--port=8080", "--allow-root"]
+CMD [ "jupyter", "notebook", "--ip=0.0.0.0", "--port=8080", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]
