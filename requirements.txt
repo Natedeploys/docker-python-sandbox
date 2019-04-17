@@ -3,6 +3,5 @@ numpy
 annoy
 gensim
 nltk
-flask
 sklearn
 jupyter
