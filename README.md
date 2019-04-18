@@ -2,6 +2,8 @@
 
 A wired internet connection is recommended, otherwise a strong wifi connection to download content quicker.
 
+Begin by cloning or downloading this repository.
+
 1. Install docker on your machine, afterwards make sure it is also running.
 2. Go to the sent2vec repository and download one of the pre-trained models.
 
