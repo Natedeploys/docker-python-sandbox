@@ -23,6 +23,8 @@ http://localhost:8080
 2) Grab the container ID ex. 1238109809
 3) run "docker exec -it 1238109809 bash" 
 
+- To stop the docker container run "docker-compose down", adding the "-v" flag at the end will remove the data too.
+
 ## Todo
 
 - Install sent2vec from the public github repository - **DONE**
