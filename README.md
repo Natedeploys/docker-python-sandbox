@@ -2,7 +2,7 @@
 
 A wired internet connection is recommended, otherwise a strong wifi connection to download content quicker.
 
-1. Install docker on your machine.
+1. Install docker on your machine, afterwards make sure it is also running.
 2. Using the command line, CD into this folder and build once:
 
 docker-compose up --build
