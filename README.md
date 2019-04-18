@@ -11,6 +11,8 @@ docker-compose up --build
 
 http://localhost:8080
 
+4. Your models should go inside the model folder
+
 ## Troubleshooting
 
 - If you are using linux, you might be required to use sudo before the step 2 command
@@ -24,4 +26,4 @@ http://localhost:8080
 ## Todo
 
 - Install sent2vec from the public github repository - **DONE**
-- Find a way to load files from the computer hosting the docker containers
+- Find a way to load files from the computer hosting the docker containers - **DONE**
