@@ -11,7 +11,7 @@ docker-compose up --build
 
 http://localhost:8080
 
-4. Your models should go inside the model folder
+4. Your models can go inside this folder
 
 ## Troubleshooting
 
