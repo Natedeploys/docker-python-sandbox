@@ -17,10 +17,11 @@ RUN apt install wget -y
 RUN wget https://github.com/facebookresearch/fastText/archive/v0.2.0.zip
 RUN apt install unzip -y
 RUN unzip v0.2.0.zip
-RUN make ./fastText-0.2.0
+RUN make -C ./fastText-0.2.0
 RUN apt-get install git -y
 RUN git clone https://github.com/epfml/sent2vec.git
-RUN make ./sent2vec
+RUN make -C ./sent2vec
+RUN pip3 install ./sent2vec
 RUN rm -f v0.2.0.zip
 RUN ls
 

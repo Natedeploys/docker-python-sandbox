@@ -15,8 +15,13 @@ http://localhost:8080
 
 - If you are using linux, you might be required to use sudo before the step 2 command
 - If no docker daemon is present, it means either the above or docker needs to be installed
+- if you need to access the inside of the container run the following command in another terminal, keeping your container still running:
+
+1) run "docker ps" without the quotes
+2) Grab the container ID ex. 1238109809
+3) run "docker exec -it 1238109809 bash" 
 
 ## Todo
 
-- Install sent2vec from the public github repository
+- Install sent2vec from the public github repository - **DONE**
 - Find a way to load files from the computer hosting the docker containers
