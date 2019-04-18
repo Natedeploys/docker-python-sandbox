@@ -7,19 +7,20 @@ A wired internet connection is recommended, otherwise a strong wifi connection t
 
 [link to sent2vec](https://github.com/epfml/sent2vec)
 
-3. Rename the model to model.bin and put it inside this repository folder on your machine.
+3. Rename the model to model.bin and put it inside this repository folder on your machine. **Anytime you add models, you will need to run step 4 again.**
 
 4. Using the command line, CD into this folder and build with the following command:
 
 `docker-compose up --build`
 
-3. Access the jupyter notebook at localhost:8080:
+5. Access the jupyter notebook at localhost:8080:
 
 [link to jupyter notebook](http://localhost:8080)
 
-4. Your models can go inside this folder
-5. For exiting the container use CTRL+D
-6. For starting the container again run:
+## Tips
+
+- For exiting the container use CTRL+D
+- For starting the container again run:
 
 `docker-compose up`
 
