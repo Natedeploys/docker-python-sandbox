@@ -3,7 +3,7 @@
 A wired internet connection is recommended, otherwise a strong wifi connection to download content quicker.
 
 1. Install docker on your machine, afterwards make sure it is also running.
-2. Using the command line, CD into this folder and build once:
+2. Using the command line, CD into this folder and build:
 
 docker-compose up --build
 
@@ -12,6 +12,8 @@ docker-compose up --build
 http://localhost:8080
 
 4. Your models can go inside this folder
+5. For exiting the container use CTRL+D
+6. For starting the container again run docker-compose up
 
 ## Troubleshooting
 
@@ -19,9 +21,9 @@ http://localhost:8080
 - If no docker daemon is present, it means either the above or docker needs to be installed
 - if you need to access the inside of the container run the following command in another terminal, keeping your container still running:
 
-1) run "docker ps" without the quotes
-2) Grab the container ID ex. 1238109809
-3) run "docker exec -it 1238109809 bash" 
+1. run "docker ps" without the quotes
+2. Grab the container ID ex. 1238109809
+3. run "docker exec -it 1238109809 bash"
 
 - To stop the docker container run "docker-compose down", adding the "-v" flag at the end will remove the data too.
 
