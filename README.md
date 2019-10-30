@@ -15,11 +15,11 @@ Begin by cloning or downloading this repository.
 
 `docker-compose up --build`
 
-5. Access the jupyter notebook at localhost:8080:
+5. Access the jupyter notebook at localhost:8080
 
 [link to jupyter notebook](http://localhost:8080)
 
-## Tips
+## Tips
 
 - For exiting the container use CTRL+D
 - For starting the container again run:
