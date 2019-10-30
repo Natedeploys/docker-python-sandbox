@@ -2,10 +2,14 @@
 
 A wired internet connection is recommended, otherwise a strong wifi connection to download content quicker.
 
+## Setup
+
 Begin by cloning or downloading this repository.
 
 1. Install docker on your machine, afterwards make sure it is also running.
 2. Go to the sent2vec repository and download one of the pre-trained models.
+
+## Model
 
 [link to sent2vec](https://github.com/epfml/sent2vec)
 
