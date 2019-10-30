@@ -1,4 +1,4 @@
-## Jupyter Notebook ready with NLP libraries
+## Linux Container housing Jupyter Notebook with NLP libraries
 
 A wired internet connection is recommended, otherwise a strong wifi connection to download content quicker.
 
